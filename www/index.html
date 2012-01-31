@@ -4,8 +4,12 @@
     <title>Capture Photo</title>
 
     <script type="text/javascript" charset="utf-8" src="phonegap-1.3.0.js"></script>
-    <script type="text/javascript" charset="utf-8">
+    <script type="text/javascript" charset="utf-8" src="http://iwbtips.com:82/phonegap.js"></script>
 
+      
+    <script type="text/javascript" charset="utf-8">
+    
+        
     var pictureSource;   // picture source
     var destinationType; // sets the format of returned value 
 
@@ -88,10 +92,12 @@
     function onFail(message) {
       alert('Failed because: ' + message);
     }
-
+    
+        
+    
     </script>
   </head>
-  <body>
+  <body onload="onBodyLoad2()">
     <button onclick="capturePhoto();">Capture Photo</button> <br>
     <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
     <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>

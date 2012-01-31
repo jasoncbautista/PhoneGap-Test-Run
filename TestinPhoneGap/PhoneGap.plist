@@ -20,6 +20,10 @@
 	<false/>
 	<key>ExternalHosts</key>
 	<array>
+		<string>iwbtips.com</string>
+		<string>http://iwbtips.com</string>
+		<string>http://iwbtips.com:82/phonegap.js</string>
+		<string>http://iwbtips.com:82/</string>
 		<string>http://iwbtips.com/</string>
 	</array>
 	<key>Plugins</key>
